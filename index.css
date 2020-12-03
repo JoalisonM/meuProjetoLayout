@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a img {
+    width:50px;
+}
+
+nav a.nav-link:hover {
+    background-color: #469536;
+}
+
+div.title_principal {
+    display: flex;
+    justify-content: center;
+}
+div.curso {
+    display: flex;
+    padding: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.divisoes {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+div.linha1 {
+    display: flex;
+    height: 10px;
+    width: 700px;
+    background-color: #008000;
+    margin-bottom: 5px;
+}
+div.linha2 {
+    display: flex;
+    height: 10px;
+    width: 500px;
+    background-color: #008000;
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+div.conteudo1, .conteudo2, .conteudo3 {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+div.conteudo1 {
+    background-color:#6eaa5e ;
+}
+div.conteudo2 {
+    background-color: #469536;
+}
+div.conteudo3 {
+    background-color: #008000;
+}
+
+div.title {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+div.texto {
+    font-size: 15px;
+    padding: 20px;
+}
+
+@media (max-width:992px) {
+    div.curso {
+        font-size: 40px;
+    }
+    div.container {
+        flex-direction: column;
+    } 
+}
+
+@media (max-width:767px) {
+    div.curso {
+        font-size: 30px;
+    }
+    div.divisoes {
+        display: none;
+    }   
+}
+
+@media (max-width:579px) {
+    div.curso {
+        font-size: 20px;
+    }
+    div.title {
+        font-size: 15px;
+    }
+    
+    div.texto {
+        font-size: 12px;
+        padding: 20px;
+    }
+}
