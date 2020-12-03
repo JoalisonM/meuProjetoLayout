@@ -1,5 +1,4 @@
-
-body {
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -75,7 +74,7 @@ div.title {
 }
 
 div.texto {
-    font-size: 15px;
+    font-size: 17px;
     padding: 20px;
     text-align: justify;
 }
