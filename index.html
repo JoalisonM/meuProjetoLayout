@@ -40,6 +40,14 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js">
     </script>
 
+    <!--Bootstrap 4 Icons-->
+    <link 
+        rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+        crossorigin="anonymous"
+    >
+
 
   </head>
   <body>
@@ -65,11 +73,11 @@
                                 data-toggle="dropdown">
                                 Disciplinas
                             </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">1º Ano</a>
-                                <a class="dropdown-item" href="#">2º Ano</a>
-                                <a class="dropdown-item" href="#">3º Ano</a>
-                                <a class="dropdown-item" href="#">4º Ano</a>
+                            <div class="dropdown-menu bg-dark">
+                                <a class="dropdown-item text-light" href="#">1º Ano</a>
+                                <a class="dropdown-item text-light" href="#">2º Ano</a>
+                                <a class="dropdown-item text-light" href="#">3º Ano</a>
+                                <a class="dropdown-item text-light" href="#">4º Ano</a>
                             </div>
                         </li>
                     </ul>
@@ -109,8 +117,10 @@
                     <div class="conteudo2">
                         <div class="title">Formas de Acesso</div>
                         <div class="texto">
-                            <strong>PSCT</strong> - Processo seletivo para ingresso 
-                            nos cursos técnicos
+                            <P>
+                                <strong>PSCT</strong> - Processo seletivo para ingresso 
+                                nos cursos técnicos
+                            </P>
                         </div>
                     </div>
                     <div class="conteudo3">
@@ -129,29 +139,31 @@
         <footer class="page-footer font-small bg-dark pt-4">
             <div class="container text-center text-md-left">
                 <div class="row mt-3">
-                    <div class="col-md col-lg-4 col-xl-2 mx-auto">
+                    <div class="col-md-3 col-lg-4 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase font-weight-bold">Nome</h6>
                         <hr 
                             class="bg-success accent-2 mb-4 mt-0 d-inline-block mx-auto" 
                             style="width: 60px;"
                         >
                         <p>
-                            Instituto Federal da Paraíba
+                            Instituto Federal da Paraíba - Campus GBA
                         </p>
                     </div>
 
-                    <div class="col-md col-lg-4 col-xl-2 mx-auto">
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase font-weight-bold">Site</h6>
                         <hr 
                             class="bg-success accent-2 mb-4 mt-0 d-inline-block mx-auto" 
                             style="width: 60px;"
                         >
                         <p>
-                            ifpb.edu.br/guarabira
+                            <a href="https://www.ifpb.edu.br/guarabira" target="_blank">
+                                ifpb.edu.br/guarabira
+                            </a>
                         </p>
                     </div>
 
-                    <div class="col-md col-lg-2 col-xl-2 mx-auto">
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase font-weight-bold">Localização</h6>
                         <hr 
                             class="bg-success accent-2 mb-4 mt-0 d-inline-block mx-auto" 
@@ -162,16 +174,18 @@
                         </p>
                     </div>
 
-                    <div class="col-md col-lg-2 col-xl-2 mx-auto">
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase font-weight-bold">Contato</h6>
                         <hr 
                             class="bg-success accent-2 mb-4 mt-0 d-inline-block mx-auto" 
                             style="width: 60px;"
                         >
                         <p>
+                            <i class="fas fa-envelope mr-3"></i> 
                             info@example.com
                         </p>
                         <p>
+                            <i class="fas fa-phone mr-3"></i>
                             +5583981956465
                         </p>
                     </div>
@@ -180,7 +194,7 @@
 
 
             <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                <a href="https://mdbootstrap.com/"> ifpb.edu.br</a>
+                <a href="https://www.ifpb.edu.br/guarabira" target="_blank"> ifpb.edu.br</a>
             </div>
         </footer>
     </body>
